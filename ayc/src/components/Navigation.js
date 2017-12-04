@@ -7,30 +7,30 @@ const Navigation = () => {
   return (
     <div>
       <Nav tabs>
-        <h1>Austin Yoga Community</h1>
+        <h1>austin yoga community</h1>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Home" exact>Home</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Home" exact>home</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Studios">Studios</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Studios">studios</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Schedules">Schedules</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Schedules">schedules</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Teachers" >Teachers</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Teachers" >teachers</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Events">Events</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Events">events</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Blog">Blog</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Blog">blog</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Shop" >Shop</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Shop" >shop</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink activeClassName="nav-link--active" to="./Register">Register</NavLink>
+          <NavLink activeClassName="nav-link--active" to="./Register">register</NavLink>
         </NavItem>
       </Nav>
     </div>

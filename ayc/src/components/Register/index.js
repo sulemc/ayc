@@ -1,5 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import SmurfForm from './SmurfForm';
 
-const Register = () => <h1>Register</h1>;
+
+class Register extends Component {
+    render() {
+      return (
+        <div className="Register">
+        <h1> register </h1>
+          <SmurfForm />
+        </div>
+      );
+    }
+  }
 
 export default Register ;
